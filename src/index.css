@@ -12,6 +12,8 @@ code {
     monospace;
 }
 .title_category{
+  padding: 0;
+  text-align: center;
   margin: 0;
   width: 70px;
   height: 70px;
