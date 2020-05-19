@@ -22,3 +22,13 @@ code {
   font-size: 40px;
   color: rgb(94, 29, 154);
 }
+.action-bar-icon{
+  background: rgb(36,36,36);
+  color: rgba(250,245,255,0.75);
+  cursor: pointer;
+  transition:0.3s;
+}
+.action-bar-icon:hover{
+  color: rgb(36,36,36);
+  background: rgba(250,245,255,0.75);
+}

@@ -11,22 +11,26 @@ class ActionBar extends React.Component {
                 width: "100%",
                 background: "rgba(205,205,205,0.5)",
                 borderRadius: 5,
-                height : 50,
                 display: "flex"
             },
             Left: {
-                background: "rgba(94,29,154,0.09)",
                 width: "50%",
-                height: 50
+                display: "flex",
+                padding: "10px 0px"
             },
             Right: {
                 width: "50%",
-                height: 50,
-                background: "rgba(28,50,3,0.05)",
+                display: "flex",
+                justifyContent: "flex-end",
+                padding: "10px 0px"
             },
             IconStyle: {
-                fontSize: 25,
-                lineHeight: 50
+                minWidth: 40,
+                fontSize: 20,
+                lineHeight: "40px",
+                textAlign: "center",
+                borderRadius: 20,
+                marginRight: 10,
             }
         }
         return (
@@ -34,8 +38,12 @@ class ActionBar extends React.Component {
                 <Row style={Style.ActionBarRow}>
                     <Col xs={12} style={Style.ActionBarCol}>
                         <div style={Style.Left}>
-                            <div style={Style.IconStyle}><i className="fas fa-plus-circle"></i></div></div>
-                        <div style={Style.Right}></div>
+                            <div style={Style.IconStyle} className="action-bar-icon"><i className="fas fa-plus"></i></div>
+                        </div>
+                        <div style={Style.Right}>
+                            <div style={Style.IconStyle} className="action-bar-icon"><i className="fas fa-sort"></i></div>
+                            <div style={Style.IconStyle} className="action-bar-icon"><i className="fas fa-filter"></i></div>
+                        </div>
                     </Col>
                 </Row>
             </Container>
