@@ -9,7 +9,7 @@ class Status extends React.Component{
         }
     }
     render() {
-        console.log(this.props.status)
+        // console.log(this.props.status)
         const status_color = {
             "Active" : "rgba(0, 212, 26, 1)",
             "Over Due" : "rgba(240, 22, 26, 1)",

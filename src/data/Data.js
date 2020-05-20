@@ -30,7 +30,7 @@ const Data = [
         indicator : 0,
     },
     {
-        id : 3,
+        id :4 ,
         Category: "Ho",
         Title : "Fix Leakage",
         "Due Date" : "17 Mar 2020",
@@ -40,7 +40,7 @@ const Data = [
         indicator : 0,
     },
     {
-        id : 1,
+        id : 5,
         Category: "Sh",
         Title : "Buy Breads",
         "Due Date" : "14 Mar 2020",
@@ -50,7 +50,7 @@ const Data = [
         indicator : 0,
     },
     {
-        id : 2,
+        id : 6,
         Category: "Sp",
         Title : "Play Footbal",
         "Due Date" : "13 Mar 2020, 11:00PM",
@@ -60,7 +60,7 @@ const Data = [
         indicator : 0,
     },
     {
-        id : 3,
+        id : 7,
         Category: "En",
         Title : "Watch Movie: Avenger End game ",
         "Due Date" : "14 Apr 2019",
@@ -70,7 +70,7 @@ const Data = [
         indicator : 0,
     },
     {
-        id : 3,
+        id : 8,
         Category: "Ho",
         Title : "Fix Leakage",
         "Due Date" : "17 Mar 2020",

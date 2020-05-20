@@ -24,7 +24,7 @@ code {
 }
 .action-bar-icon{
   background: rgb(36,36,36);
-  color: rgba(250,245,255,0.75);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   transition:0.3s;
 }
@@ -32,3 +32,22 @@ code {
   color: rgb(36,36,36);
   background: rgba(250,245,255,0.75);
 }
+.btn-custom-style{
+  background: rgb(36,36,36);
+  box-shadow: none !important;
+  border-color: #02213b;
+}
+.btn-custom-style:hover{
+  background: rgba(250,245,255,0.75) !important;
+  color: #02213b !important;
+  border-color: #02213b;
+}
+.btn-custom-style:focus{
+  background: rgb(36,36,36);
+  border-color: #02213b;
+}
+.btn-custom-style:active{
+  background: rgb(36,36,36);
+  border-color: #02213b;
+}
+
